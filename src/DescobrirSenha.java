@@ -4,9 +4,9 @@ public class DescobrirSenha {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Nome");
+        System.out.println("Digite o seu Nome");
         String nome = scanner.next();
-        System.out.println("Senha");
+        System.out.println("Digite a sua Senha");
         String senha = scanner.next();
 
         System.out.println(senhaForte(senha));
